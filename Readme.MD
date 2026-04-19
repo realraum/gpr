@@ -1,5 +1,14 @@
 # GPR (Ground Penetrating Radar)
 
+Messprinzip
+  
+               ┌──────────┐    ┌─────────────────┐  
+    ┌──────────┤   VNA    │.s2p│                 │   
+    ▼      ┌──►│(NanoVNA) |───►│  gpr_bscan.py   │ ───► BSCAN.PNG
+  ────   ────  │          │    │                 │
+  Ant1  Ant2   └──────────┘    └─────────────────┘   
+ 
+
 Ich habe GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien gewonnen mit einem Vectornetworkanalyzer und möchte:
 
 IFFT/TDR anwenden um Zeitbereich-Reflexionen zu berechnen,
@@ -40,6 +49,8 @@ SchrittMethodeEinlesenS2P-Parser (MA / DB / RI Format, alle Frequenzeinheiten)TD
 Rohre erscheinen als Hyperbeln — Scheitel = Rohrtiefe, Öffnung hängt von v ab
 
 # Literatur
+
+https://github.com/spel-oe/gpr
 
 https://www.db-thueringen.de/servlets/MCRFileNodeServlet/dbt_derivate_00021644/ilm1-2010000403.pdf
 
