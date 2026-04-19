@@ -33,11 +33,15 @@ Tipps für gute Ergebnisse
 --tmax setzen um den relevanten Tiefenbereich zu beschränken (sonst erscheinen IFFT-Artefakte)
 
 --gain erhöhen (z.B. 3–5 dB/ns) wenn tiefe Reflexionen zu schwach erscheinen
+
+
 Rohre erscheinen als Hyperbeln — Scheitel = Rohrtiefe, Öffnung hängt von v ab
 
 Literatur
 
 https://www.db-thueringen.de/servlets/MCRFileNodeServlet/dbt_derivate_00021644/ilm1-2010000403.pdf
+
+https://www.microwavejournal.com/articles/1866-characterization-of-ultra-wideband-bow-tie-antennas-for-ground-penetrating-radar-systems
 
 https://www.researchgate.net/publication/370756883_Bow-Tie_Antenna_with_Improved_Performance_for_Advanced_GPR_Applications
 
