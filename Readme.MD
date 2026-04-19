@@ -7,9 +7,9 @@ Messprinzip
     ▼      ┌──►│(NanoVNA) |───►│  gpr_bscan.py   │ ───► BSCAN.PNG
 ───   ────     │          │    │                 │
   Ant1  Ant2   └──────────┘    └─────────────────┘ 
-  ────   ────  │          │    │                 │
 
-  Ant1  Ant2   └──────────┘    └─────────────────┘   
+
+ 
  
 
 Ich habe GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien gewonnen mit einem Vectornetworkanalyzer und möchte:
