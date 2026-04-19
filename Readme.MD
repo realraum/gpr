@@ -27,6 +27,8 @@ Tipps für gute Ergebnisse
 
 --bgrem aktivieren wenn die Direktwelle (oberste Zeile) die Tiefenreflexionen überlagert
 εr bestimmen über Hyperbel-Fitting: flachere Hyperbeln → höheres εr, steilere → niedrigeres εr
+
 --tmax setzen um den relevanten Tiefenbereich zu beschränken (sonst erscheinen IFFT-Artefakte)
+
 --gain erhöhen (z.B. 3–5 dB/ns) wenn tiefe Reflexionen zu schwach erscheinen
 Rohre erscheinen als Hyperbeln — Scheitel = Rohrtiefe, Öffnung hängt von v ab
