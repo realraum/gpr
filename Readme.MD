@@ -1,6 +1,6 @@
 Ich habe GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien und möchte:
 
-IFFT/TDR anwenden um Zeitbereich-Reflexionen zu berechnen
+IFFT/TDR anwenden um Zeitbereich-Reflexionen zu berechnen,
 B-Scan (2D Radarbild) über alle Messpositionen erstellen
 Hyperbeln von vergrabenen Objekten sichtbar machen
 
