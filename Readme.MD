@@ -1,8 +1,8 @@
-Ich verstehe — Sie haben GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien und möchten:
+Ich habe GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien und möchte:
 
 IFFT/TDR anwenden um Zeitbereich-Reflexionen zu berechnen
 B-Scan (2D Radarbild) über alle Messpositionen erstellen
-Hyperbeln von vergrabenen Rohren sichtbar machen
+Hyperbeln von vergrabenen Objekten sichtbar machen
 
 
 # Minimal (εr = 9, Spurabstand = 5 cm)
