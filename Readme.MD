@@ -20,12 +20,12 @@ python gpr_bscan.py \
   --cmap bwr \
   --bgrem
 
-Verarbeitungspipeline
+# Verarbeitungspipeline
 SchrittMethodeEinlesenS2P-Parser (MA / DB / RI Format, alle Frequenzeinheiten)TDRIFFT mit Zero-Padding (4×N) → ZeitbereichssignalFensterungHann / Hamming / Blackman (reduziert Seitenkeulen)DewowGleitender Mittelwert-Abzug (DC-Anteil)TGCZeitabhängige Verstärkung (kompensiert Dämpfung im Boden)Hintergrund
 
 --bgrem: Mittelspur abziehen (entfernt Direktwelle/Ringing)Tiefenachsedepth = v · t / 2, wobei v = c / √εr
 
-Tipps für gute Ergebnisse
+# Tipps für gute Ergebnisse
 
 --bgrem aktivieren wenn die Direktwelle (oberste Zeile) die Tiefenreflexionen überlagert
 εr bestimmen über Hyperbel-Fitting: flachere Hyperbeln → höheres εr, steilere → niedrigeres εr
