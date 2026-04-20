@@ -48,6 +48,8 @@ SchrittMethodeEinlesenS2P-Parser (MA / DB / RI Format, alle Frequenzeinheiten)TD
 
 --gain erhöhen (z.B. 3–5 dB/ns) wenn tiefe Reflexionen zu schwach erscheinen
 
+# Beispiel für Objekte in Luft
+--folder "." --bgrem --er 1 --gain 0.1
 
 Rohre erscheinen als Hyperbeln — Scheitel = Rohrtiefe, Öffnung hängt von v ab
 
