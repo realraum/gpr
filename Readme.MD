@@ -6,7 +6,11 @@ Messprinzip
     ┌──────────┤   VNA    │.s2p│ nanovna_capture.py  │   
     ▼      ┌──►│(NanoVNA) |───►│    gpr_bscan.py     │ ───► BSCAN.PNG
 ───   ────     │          │    │                     │
+
+
   Ant1  Ant2   └──────────┘    └─────────────────────┘ 
+
+
 
 
  
