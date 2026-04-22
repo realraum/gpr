@@ -2,17 +2,17 @@
 
 Messprinzip
   
-               ┌──────────┐    ┌─────────────────┐  
-    ┌──────────┤   VNA    │.s2p│                 │   
-    ▼      ┌──►│(NanoVNA) |───►│  gpr_bscan.py   │ ───► BSCAN.PNG
-───   ────     │          │    │                 │
-  Ant1  Ant2   └──────────┘    └─────────────────┘ 
+               ┌──────────┐    ┌─────────────────────┐  
+    ┌──────────┤   VNA    │.s2p│ nanovna_capture.py  │   
+    ▼      ┌──►│(NanoVNA) |───►│    gpr_bscan.py     │ ───► BSCAN.PNG
+───   ────     │          │    │                     │
+  Ant1  Ant2   └──────────┘    └─────────────────────┘ 
 
 
  
  
 
-Ich habe GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien gewonnen mit einem Vectornetworkanalyzer und möchte:
+Ich habe GPR-Daten (Ground Penetrating Radar) als S21-Touchstone-Dateien gewonnen mit einem Vectornetworkanalyzer und will:
 
 IFFT/TDR anwenden um Zeitbereich-Reflexionen zu berechnen,
 B-Scan (2D Radarbild) über alle Messpositionen erstellen
